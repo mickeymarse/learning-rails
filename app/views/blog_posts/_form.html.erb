@@ -1,0 +1,25 @@
+<%= form_with model: blog_post do |form| %>
+
+    <% if form.object.errors.any? %>
+
+    <section>
+    <% form.object.errors.full_messages.each do |message| %>
+    <article> <%= message %> </article>
+    <% end %>
+    </section>
+
+    <% end %>
+
+    <section aria-label='Insert title'>
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+    </section>
+
+    <section aria-label='Insert body'>
+    <%= form.label :body %>
+    <%= form.text_area :body %>
+    </section>
+
+    <%= form.button %>
+
+<% end %>
