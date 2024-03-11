@@ -1,24 +1,3 @@
-# README
+# Learning Ruby & Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Just learning the basics of Ruby and Ruby on Rails through a [freeCodeCamp tutorial](https://invidious.fdn.fr/watch?v=t_ispmWmdjY) and [GoRails](https://youtu.be/i2rTiEhQzig?list=PLm8ctt9NhMNWD939gE728i13W999EFS0n).
